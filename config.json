@@ -41,7 +41,7 @@
     "temporal_patch_size": 2
   },
   "rope_scaling": {
-    "rope_type": "mrope",
+    "type": "mrope",
     "mrope_section": [
       16,
       24,
