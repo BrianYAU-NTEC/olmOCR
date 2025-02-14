@@ -48,7 +48,6 @@ and then run the following sample code.
 ```python
 import torch
 import base64
-import json
 import urllib.request
 
 from io import BytesIO
