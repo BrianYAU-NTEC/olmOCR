@@ -11,7 +11,8 @@ library_name: transformers
 
 # olmOCR-7B-0225-preview
 
-This is a preview release of the olmOCR model that's fine tuned from Qwen2-VL-7B-Instruct.
+This is a preview release of the olmOCR model that's fine tuned from Qwen2-VL-7B-Instruct using the 
+[olmOCR-mix-0225](https://huggingface.co/datasets/allenai/olmOCR-mix-0225) dataset.
 
 Quick links:
 - 📃 [Paper](link-to-paper)
