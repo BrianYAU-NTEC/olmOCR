@@ -34,7 +34,7 @@ The prompt must then contain the additional metadata from the document, and the 
 ```python
 image_base64 = [base64 image of PDF rendered down to 1024 px on longest edge]
 
- "messages": [
+messages = [
             {
                 "role": "user",
                 "content": [
