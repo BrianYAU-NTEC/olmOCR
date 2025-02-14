@@ -9,6 +9,8 @@ base_model:
 library_name: transformers
 ---
 
+<img alt="olmOCR Logo" src="https://huggingface.co/datasets/allenai/blog-images/resolve/main/olmocr/olmocr.png" width="242px" style="margin-left:'auto' margin-right:'auto' display:'block'">
+
 # olmOCR-7B-0225-preview
 
 This is a preview release of the olmOCR model that's fine tuned from Qwen2-VL-7B-Instruct using the 
