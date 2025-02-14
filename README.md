@@ -23,6 +23,8 @@ Quick links:
 - 🎮 [Demo](https://olmocr.allenai.org/)
 
 The best way to use this model is via the [olmOCR toolkit](https://github.com/allenai/olmocr).
+The toolkit comes with an efficient inference setup via sglang that can handle millions of documents
+at scale.
 
 ## Usage
 
@@ -33,7 +35,7 @@ The prompt must then contain the additional metadata from the document, and the 
 
 ## Manual Prompting
 
-If you want to prompt this model manually, please see the code below.
+If you want to prompt this model manually instead of using the [olmOCR toolkit](https://github.com/allenai/olmocr), please see the code below.
 
 In normal usage, the olmOCR toolkit builds the prompt by rendering the PDF page, and
 extracting relevant text blocks and image metadata. To duplicate that you will need to
