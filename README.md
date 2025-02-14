@@ -116,6 +116,7 @@ text_output = processor.tokenizer.batch_decode(
 )
 
 print(text_output)
+# ['{"primary_language":"en","is_rotation_valid":true,"rotation_correction":0,"is_table":false,"is_diagram":false,"natural_text":"Molmo and PixMo:\\nOpen Weights and Open Data\\nfor State-of-the']
 ```
 
 ## License and use
