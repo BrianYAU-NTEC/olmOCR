@@ -31,6 +31,7 @@ at scale.
 This model expects as input a single document image, rendered such that the longest dimension is 1024 pixels.
 
 The prompt must then contain the additional metadata from the document, and the easiest way to generate this
+is to use the methods provided by the [olmOCR toolkit](https://github.com/allenai/olmocr).
 
 
 ## Manual Prompting
