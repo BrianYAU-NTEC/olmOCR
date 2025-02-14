@@ -22,12 +22,34 @@ Quick links:
 
 The best way to use this model is via the [olmOCR toolkit](https://github.com/allenai/olmocr).
 
-## Prompting
+## Usage
 
 This model expects as input a single document image, rendered such that the longest dimension is 1024 pixels.
 
 The prompt must then contain the additional metadata from the document, and the easiest way to generate this
-prompt is via the [olmOCR toolkit](https://github.com/allenai/olmocr).
+
+
+## Manual Prompting
+
+```python
+image_base64 = [base64 image of PDF rendered down to 1024 px on longest edge]
+
+ "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "text", "text": "Below is the image of one page of a document, as well as some raw textual content that was previously extracted for it. Just return the plain text representation of this document as if you were reading it naturally.
+Do not hallucinate.
+RAW_TEXT_START
+Page dimensions: 1836.8x2267.2
+[Image 0x0 to 1837x2267]
+
+RAW_TEXT_END"},
+                    {"type": "image_url", "image_url": {"url": f"data:image/png;base64,{image_base64}"}},
+                ],
+            }
+        ],
+```
 
 ## License and use
 
