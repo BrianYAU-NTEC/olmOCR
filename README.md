@@ -17,7 +17,7 @@ This is a preview release of the olmOCR model that's fine tuned from Qwen2-VL-7B
 [olmOCR-mix-0225](https://huggingface.co/datasets/allenai/olmOCR-mix-0225) dataset.
 
 Quick links:
-- 📃 [Paper](link-to-paper)
+- 📃 [Paper](https://olmocr.allenai.org/papers/olmocr.pdf)
 - 🤗 [Dataset](https://huggingface.co/datasets/allenai/olmOCR-mix-0225)
 - 🛠️ [Code](https://github.com/allenai/olmocr)
 - 🎮 [Demo](https://olmocr.allenai.org/)
