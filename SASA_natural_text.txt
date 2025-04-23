@@ -1,0 +1,6 @@
+{"primary_language":"en","is_rotation_valid":true,"rotation_correction":0,"is_table":true,"is_diagram":false,"natural_text":"| Item | Vendor Article No | Article No | Article Status | Color | Item category | Size
+
+{"primary_language":"en","is_rotation_valid":true,"rotation_correction":0,"is_table":true,"is_diagram":false,"natural_text":"| Item Description | Article No | Article Status | Color | Item category | Size | Delivery Date
+
+{"primary_language":"en","is_rotation_valid":true,"rotation_correction":0,"is_table":false,"is_diagram":false,"natural_text":"1. Terms and Conditions (T&C): Unless otherwise agreed in writing between the parties, these
+
